@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="content" width="device-width, initial-scale=1.0">
+<title>iframe tags</title>
+<style>
+
+iframe {
+   border-top: solid 5px #4361ee;
+   border-bottom: solid 5px #4361ee;
+   border-left: solid 5px deeppink;
+   border-right: solid 5px deeppink;
+   background-color: whitesmoke;
+    width: 95%;
+    height: 300px;
+    position: relative;
+    left: 8px;
+}
+
+p{
+ width: 300px;
+ margin: auto;
+}
+
+a{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    iframe{
+        position: relative;
+        left: 28px;
+    }
+
+    a{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+    }
+
+    p{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    iframe{
+        position: relative;
+        left: 17px;
+    }
+
+    a{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+    }
+
+    p{
+        width: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 801px) {
+    iframe{
+        position: relative;
+        left: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 738px) {
+    iframe{
+        position: relative;
+        left: 10px;
+    }
+
+}
+
+</style>
+</head>
+<body>
+    
+<iframe name="iframe_a" title="iframe example"></iframe>
+
+
+
+
+
+
+
+<p><a href="https://www.google.com/" target="iframe_a">click and view google.com in the iframe</a></p>
+
+
+
+
+
+</body>
+</html>
